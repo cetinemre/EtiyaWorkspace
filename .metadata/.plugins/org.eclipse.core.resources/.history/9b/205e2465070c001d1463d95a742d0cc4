@@ -1,0 +1,6 @@
+
+public class TuzelMusteriler extends Musteri{
+	private int MusteriId;
+	private String Unvan;
+	private String VergiNo;
+}

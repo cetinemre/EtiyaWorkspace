@@ -1,0 +1,51 @@
+
+public class GercekMusteri extends Musteri{
+	private int musteriId;
+	private String ad;
+	private String soyad;
+	private String TcKimlikNo;	
+	private TicariFaaliyet ticariFaaliyet;
+	
+	public GercekMusteri(int id, String musteriNo, int kanalId) {
+		super(id, musteriNo, kanalId);
+	}
+	public GercekMusteri(int id, int musteriNo, int kanalId, int musteriId, String ad, String soyad,
+			String tcKimlikNo) {
+		super(id, musteriNo, kanalId);
+		this.musteriId = musteriId;
+		this.ad = ad;
+		this.soyad = soyad;
+		TcKimlikNo = tcKimlikNo;
+	}
+	public int getMusteriId() {
+		return musteriId;
+	}
+	public void setMusteriId(int musteriId) {
+		this.musteriId = musteriId;
+	}
+	public String getAd() {
+		return ad;
+	}
+	public void setAd(String ad) {
+		this.ad = ad;
+	}
+	public String getSoyad() {
+		return soyad;
+	}
+	public void setSoyad(String soyad) {
+		this.soyad = soyad;
+	}
+	public String getTcKimlikNo() {
+		return TcKimlikNo;
+	}
+	public void setTcKimlikNo(String tcKimlikNo) {
+		TcKimlikNo = tcKimlikNo;
+	}
+	public TicariFaaliyet getTicariFaaliyet() {
+		return ticariFaaliyet;
+	}
+	public void setTicariFaaliyet(TicariFaaliyet ticariFaaliyet) {
+		this.ticariFaaliyet = ticariFaaliyet;
+	}
+	
+}

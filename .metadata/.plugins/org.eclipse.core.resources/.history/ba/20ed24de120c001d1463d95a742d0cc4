@@ -1,0 +1,28 @@
+public class TuzelMusteri extends Musteri{
+
+	private String unvan;
+	private String vergiNo;
+	public TuzelMusteri() {
+		super();
+	}
+	public TuzelMusteri(int id,String unvan, String vergiNo) {
+		super();
+		this.unvan = unvan;
+		this.vergiNo = vergiNo;
+	}
+	public String getUnvan() {
+		return unvan;
+	}
+	public void setUnvan(String unvan) {
+		this.unvan = unvan;
+	}
+	public String getVergiNo() {
+		return vergiNo;
+	}
+	public void setVergiNo(String vergiNo) {
+		this.vergiNo = vergiNo;
+	}
+	
+	
+	
+}

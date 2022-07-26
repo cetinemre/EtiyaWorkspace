@@ -1,0 +1,23 @@
+public class Sendikalar extends Musteri{
+
+	private String name;
+
+	public Sendikalar() {
+		super();
+	}
+
+	public Sendikalar(String name) {
+		super();
+		this.name = name;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+	
+}

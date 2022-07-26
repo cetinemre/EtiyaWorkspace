@@ -1,0 +1,9 @@
+import java.util.Date;
+
+public class Bilanco {
+	private int Id;
+	private int musteriId;
+	private Date tarih;
+	private int tutar;
+	private Musteri musteri;
+}

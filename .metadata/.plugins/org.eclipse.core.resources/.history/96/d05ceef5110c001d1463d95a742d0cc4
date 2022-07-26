@@ -1,0 +1,39 @@
+
+public abstract class Musteri {
+
+	private int id;
+	private String MusteriNo;
+	private int KanalId;
+	private Kanal kanal;
+	public Musteri(int id,  String musteriNo, int kanalId) {
+		super();
+		this.id = id;
+		MusteriNo = musteriNo;
+		KanalId = kanalId;
+	}
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public String getMusteriNo() {
+		return MusteriNo;
+	}
+	public void setMusteriNo(String musteriNo) {
+		MusteriNo = musteriNo;
+	}
+	public int getKanalId() {
+		return KanalId;
+	}
+	public void setKanalId(int kanalId) {
+		KanalId = kanalId;
+	}
+	public Kanal getKanal() {
+		return kanal;
+	}
+	public void setKanal(Kanal kanal) {
+		this.kanal = kanal;
+	}
+	
+}

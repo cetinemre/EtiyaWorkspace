@@ -1,0 +1,46 @@
+import java.util.Date;
+
+public class Bilanco {
+	private int Id;
+	private int musteriId;
+	private Date tarih;
+	private int tutar;
+	private Musteri musteri;
+	public Bilanco(int id, int musteriId, Date tarih, int tutar) {
+		super();
+		Id = id;
+		this.musteriId = musteriId;
+		this.tarih = tarih;
+		this.tutar = tutar;
+	}
+	public int getId() {
+		return Id;
+	}
+	public void setId(int id) {
+		Id = id;
+	}
+	public int getMusteriId() {
+		return musteriId;
+	}
+	public void setMusteriId(int musteriId) {
+		this.musteriId = musteriId;
+	}
+	public Date getTarih() {
+		return tarih;
+	}
+	public void setTarih(Date tarih) {
+		this.tarih = tarih;
+	}
+	public int getTutar() {
+		return tutar;
+	}
+	public void setTutar(int tutar) {
+		this.tutar = tutar;
+	}
+	public Musteri getMusteri() {
+		return musteri;
+	}
+	public void setMusteri(Musteri musteri) {
+		this.musteri = musteri;
+	}
+}

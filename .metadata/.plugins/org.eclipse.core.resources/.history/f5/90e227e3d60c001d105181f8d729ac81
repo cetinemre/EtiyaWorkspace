@@ -1,0 +1,5 @@
+package telkoProject;
+
+public class BankCard extends PaymentType{
+	private String cardNo;
+}

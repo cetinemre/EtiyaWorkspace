@@ -1,0 +1,16 @@
+package Kodlamaio;
+
+public class CourseManager {
+	private int id;
+    private String name;
+    private Category category;
+    private Instructor instructor;
+
+    public Courses addCourse(int id, String name, Category category, Instructor instructor ){
+        return new Courses(id,name,category,instructor);
+    }
+
+    public void nameChange(Courses course, String name){
+        course.setName(name);
+    }
+}

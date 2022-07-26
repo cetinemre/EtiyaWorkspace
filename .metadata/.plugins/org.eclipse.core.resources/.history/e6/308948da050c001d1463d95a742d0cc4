@@ -1,0 +1,6 @@
+
+public class GercekMusteriler {
+	private String Ad;
+	private String Soyad;
+	private String TcKimlikNo;	
+}

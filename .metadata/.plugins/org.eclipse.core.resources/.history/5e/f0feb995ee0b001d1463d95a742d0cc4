@@ -1,0 +1,10 @@
+
+public class SmsNotification implements NotificationService {
+
+	@Override
+	public void message(String message) {
+		System.out.println("Sms ile kayıt olundu");
+		
+	}
+
+}

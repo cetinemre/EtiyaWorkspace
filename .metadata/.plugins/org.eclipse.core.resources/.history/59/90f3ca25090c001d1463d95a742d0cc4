@@ -1,0 +1,9 @@
+
+public class GercekMusteri extends Musteri{
+	private int musteriId;
+	private String ad;
+	private String soyad;
+	private String TcKimlikNo;	
+	private TicariFaaliyet ticariFaaliyet;
+	
+}

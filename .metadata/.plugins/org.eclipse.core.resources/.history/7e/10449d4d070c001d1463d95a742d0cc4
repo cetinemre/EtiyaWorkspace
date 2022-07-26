@@ -1,0 +1,5 @@
+
+public class Kanallar {
+	private int id;
+	private String Ad;
+}

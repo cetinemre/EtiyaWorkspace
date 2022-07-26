@@ -1,0 +1,37 @@
+
+public class Adres {
+	private int Id;
+	private int MusteriId;
+	private String AdresDetay;
+	private Musteri musteri;
+	public Adres(int id, int musteriId, String adresDetay) {
+		super();
+		Id = id;
+		MusteriId = musteriId;
+		AdresDetay = adresDetay;
+	}
+	public int getId() {
+		return Id;
+	}
+	public void setId(int id) {
+		Id = id;
+	}
+	public int getMusteriId() {
+		return MusteriId;
+	}
+	public void setMusteriId(int musteriId) {
+		MusteriId = musteriId;
+	}
+	public String getAdresDetay() {
+		return AdresDetay;
+	}
+	public void setAdresDetay(String adresDetay) {
+		AdresDetay = adresDetay;
+	}
+	public Musteri getMusteri() {
+		return musteri;
+	}
+	public void setMusteri(Musteri musteri) {
+		this.musteri = musteri;
+	}
+}

@@ -1,0 +1,9 @@
+
+public abstract class Musteri {
+
+	private int id;
+	private int MusteriNo;
+	private int KanalId;
+	private Kanal kanal;
+	
+}

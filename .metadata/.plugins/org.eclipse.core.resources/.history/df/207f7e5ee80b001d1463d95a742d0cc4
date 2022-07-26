@@ -1,0 +1,12 @@
+import oop2.Employee;
+
+public class UserManager {
+	public void register(User user) {
+		System.out.println();
+		
+	}
+	public void forgetPassword(User user) {
+		System.out.println();
+		
+	}
+}

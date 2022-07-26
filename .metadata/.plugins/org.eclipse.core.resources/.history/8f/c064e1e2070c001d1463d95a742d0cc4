@@ -1,0 +1,7 @@
+
+public class Adres {
+	private int Id;
+	private int MusteriId;
+	private String AdresDetay;
+	private Musteri musteri;
+}

@@ -1,0 +1,35 @@
+
+public class User {
+private int id;
+private String firstName;
+private NotificationService notificationService;
+public User() {
+	super();
+}
+public User(int id, String firsName, NotificationService notificationService) {
+	super();
+	this.id = id;
+	this.firstName = firsName;
+	this.notificationService = notificationService;
+	
+}
+public int getId() {
+	return id;
+}
+public void setId(int id) {
+	this.id = id;
+}
+public String getFirsName() {
+	return firstName;
+}
+public void setFirsName(String firsName) {
+	this.firstName = firsName;
+}
+public NotificationService getNotificationService() {
+	return notificationService;
+}
+public void setNotificationService(NotificationService notificationService) {
+	this.notificationService = notificationService;
+}
+
+}

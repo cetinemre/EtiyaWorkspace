@@ -1,0 +1,39 @@
+package workshop3kodlamaIoVeriModelleme;
+
+public class Adres {
+	
+	private int id;
+	private String adresDetay;
+	private Musteri musteri;
+	public Adres() {
+		super();
+	}
+	public Adres(int id, String adresDetay, Musteri musteri) {
+		super();
+		this.id = id;
+		this.adresDetay = adresDetay;
+		this.musteri = musteri;
+	}
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public String getAdresDetay() {
+		return adresDetay;
+	}
+	public void setAdresDetay(String adresDetay) {
+		this.adresDetay = adresDetay;
+	}
+	public Musteri getMusteri() {
+		return musteri;
+	}
+	public void setMusteri(Musteri musteri) {
+		this.musteri = musteri;
+	}
+	
+	
+	
+
+}

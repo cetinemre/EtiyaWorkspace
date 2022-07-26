@@ -1,0 +1,28 @@
+package Kodlamaio;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Category category = new Category(1," Programlama ");
+        Instructor instructor = new Instructor (1," HinduMan ");
+        Courses course1 = new Courses(1," Java ",category,instructor);
+        Courses course2 = new Courses(2," React ",category,instructor);
+
+        
+        CourseManager courseManager = new CourseManager();
+        Courses course3 = courseManager.addCourse(3," .net ",category,instructor);
+
+        Courses[] courses = new Courses[]{course1,course2, course3};
+
+        
+        courseManager.nameChange(course3," .net Core ");
+
+
+        for (Courses course: courses) {
+            System.out.println(course.getName());
+            System.out.println(course.getInstructor().getName());
+            System.out.println(course.getCategory().getName());
+        }
+	}
+
+}

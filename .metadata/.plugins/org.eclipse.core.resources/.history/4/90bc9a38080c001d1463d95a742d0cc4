@@ -1,0 +1,5 @@
+
+public class Sendika {
+	private int musteriId;
+	private String ad;
+}

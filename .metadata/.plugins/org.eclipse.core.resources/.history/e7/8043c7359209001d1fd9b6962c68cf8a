@@ -1,0 +1,17 @@
+package oop2;
+
+public class Logger {
+	public void log(String data, int logType) {
+		if(logType==1) {
+			System.out.println(data+" dosyaya loglandı");
+		}else if(logType==2) {
+			System.out.println(data+"db loglandı");
+		}
+		else if(logType==3) {
+			System.out.println(data+"cloud loglandı");
+		}else if(logType==4){
+			System.out.println(data+"elastic loglandı");
+		}
+	}
+	
+}

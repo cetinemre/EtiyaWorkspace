@@ -1,0 +1,9 @@
+package Workshop;
+
+public class Course {
+
+	private int id;
+	private String name;
+	
+	
+}

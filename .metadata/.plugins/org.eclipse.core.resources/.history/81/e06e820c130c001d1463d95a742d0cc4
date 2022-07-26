@@ -1,0 +1,31 @@
+import java.util.Date;
+
+public class TicariFaaliyet {
+	
+	private GercekMusteri gercekMusteri;
+	private Date baslangicTarihi;
+	public TicariFaaliyet() {
+		super();
+	}
+	public TicariFaaliyet(GercekMusteri gercekMusteri, Date baslangicTarihi) {
+		super();
+		this.gercekMusteri = gercekMusteri;
+		this.baslangicTarihi = baslangicTarihi;
+	}
+	public GercekMusteri getGercekMusteri() {
+		return gercekMusteri;
+	}
+	public void setGercekMusteri(GercekMusteri gercekMusteri) {
+		this.gercekMusteri = gercekMusteri;
+	}
+	public Date getBaslangicTarihi() {
+		return baslangicTarihi;
+	}
+	public void setBaslangicTarihi(Date baslangicTarihi) {
+		this.baslangicTarihi = baslangicTarihi;
+	}
+	
+	
+	
+
+}

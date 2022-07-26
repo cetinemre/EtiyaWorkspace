@@ -1,0 +1,6 @@
+
+public class TuzelMusteriler {
+	private int MusteriId;
+	private String Unvan;
+	private String VergiNo;
+}

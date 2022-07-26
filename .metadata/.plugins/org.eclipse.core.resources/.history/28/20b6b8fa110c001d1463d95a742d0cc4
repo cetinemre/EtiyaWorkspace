@@ -1,0 +1,22 @@
+
+public class Sendika {
+	private int musteriId;
+	private String ad;
+	public Sendika(int musteriId, String ad) {
+		super();
+		this.musteriId = musteriId;
+		this.ad = ad;
+	}
+	public int getMusteriId() {
+		return musteriId;
+	}
+	public void setMusteriId(int musteriId) {
+		this.musteriId = musteriId;
+	}
+	public String getAd() {
+		return ad;
+	}
+	public void setAd(String ad) {
+		this.ad = ad;
+	}
+}

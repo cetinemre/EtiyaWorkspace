@@ -1,0 +1,10 @@
+package telkoProject;
+
+import java.time.LocalDate;
+
+public class Payment {
+private int id;
+private PaymentType paymentType;
+private Plan plan;
+private LocalDate date;
+}

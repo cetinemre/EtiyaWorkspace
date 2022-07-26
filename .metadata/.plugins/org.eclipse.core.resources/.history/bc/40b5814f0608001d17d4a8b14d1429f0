@@ -1,0 +1,25 @@
+package intro;
+
+public class Main {
+
+	public static void main(String[] args) {
+		int s=0;
+		int number=0;
+		for(int a=2; number<=1000;number++) {
+			int check=0;
+			for(int i= 2;i<number; i++) {
+				if(number%i=00)
+				{
+					check = 1;
+					break;
+				}
+				
+			}
+			if(check==0) {
+				System.out.println(number+"\n");
+				s++;
+			}
+		}
+	}
+
+}

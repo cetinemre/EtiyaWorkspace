@@ -1,0 +1,5 @@
+package telkoProject;
+
+public class AdslNet extends Product{
+
+}

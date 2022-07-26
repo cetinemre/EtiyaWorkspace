@@ -1,0 +1,14 @@
+import java.util.List;
+
+public class UserManager {
+	private List<User>users;
+	
+	public void register(User user) {
+		System.out.println(user.getNotificationService()+" Kayıt olundu");
+		
+	}
+	public void forgetPassword(User user) {
+		System.out.println();
+		
+	}
+}

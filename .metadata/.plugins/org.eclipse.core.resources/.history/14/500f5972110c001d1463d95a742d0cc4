@@ -1,0 +1,9 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		Musteri musteri1 = new GercekMusteri(1,"123",1,1,"ali","bak","1234567");
+
+	}
+
+}

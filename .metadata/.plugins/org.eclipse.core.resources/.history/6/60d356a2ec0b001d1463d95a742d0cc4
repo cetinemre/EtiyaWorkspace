@@ -1,0 +1,21 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class UserManager {
+	private List<User>users = new ArrayList<User>();
+	
+	public void register(User user) {
+		System.out.println(user.getNotificationService()+" Kayıt olundu");
+		users.add(user);
+		
+	}
+	public void forgetPassword(User user) {
+		System.out.println();
+		
+	}
+	public List<User> getUsers() {
+		
+		System.out.println(users.get(0).getFirsName());
+		return users;
+	}
+}

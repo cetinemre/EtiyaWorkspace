@@ -1,0 +1,30 @@
+
+import java.time.LocalDate;
+import java.util.Date;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		Kanal kanal1 = new Kanal(1,"Internet");
+		Musteri musteri1 = new GercekMusteri(1,"12345",kanal1,"Emrah","Alkan","1231241");
+		System.out.println(musteri1.getId());
+		System.out.println(musteri1.getMusteriNo());
+		System.out.println(musteri1.getKanal().getAd());
+		System.out.println("**************");
+		System.out.println(kanal1.getAd());
+		System.err.println(kanal1.getId());
+		System.out.println("**************");
+		Adres adres1 = new Adres(1,"Ankara",musteri1);
+		System.out.println(adres1.getAdresDetay());
+		System.out.println(adres1.getMusteri().getMusteriNo());
+		System.out.println(adres1.getId());
+		System.out.println("**************");
+		Bilanco bilanco1 = new Bilanco(1,musteri1,LocalDate.of(2022, 8, 30),2000);
+		System.out.println(bilanco1.getMusteri().getMusteriNo());
+		System.out.println(bilanco1.getTarih().toString());
+		
+
+	}
+
+}

@@ -1,0 +1,30 @@
+
+public class TuzelMusteri extends Musteri{
+	private int MusteriId;
+	private String Unvan;
+	private String VergiNo;
+	public TuzelMusteri(int id, String musteriNo, int kanalId, int musteriId, String unvan, String vergiNo) {
+		super(id, musteriNo, kanalId);
+		MusteriId = musteriId;
+		Unvan = unvan;
+		VergiNo = vergiNo;
+	}
+	public int getMusteriId() {
+		return MusteriId;
+	}
+	public void setMusteriId(int musteriId) {
+		MusteriId = musteriId;
+	}
+	public String getUnvan() {
+		return Unvan;
+	}
+	public void setUnvan(String unvan) {
+		Unvan = unvan;
+	}
+	public String getVergiNo() {
+		return VergiNo;
+	}
+	public void setVergiNo(String vergiNo) {
+		VergiNo = vergiNo;
+	}
+}

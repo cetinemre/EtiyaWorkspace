@@ -1,0 +1,22 @@
+
+public class Kanal {
+	private int id;
+	private String Ad;
+	public Kanal(int id, String ad) {
+		super();
+		this.id = id;
+		Ad = ad;
+	}
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public String getAd() {
+		return Ad;
+	}
+	public void setAd(String ad) {
+		Ad = ad;
+	}
+}

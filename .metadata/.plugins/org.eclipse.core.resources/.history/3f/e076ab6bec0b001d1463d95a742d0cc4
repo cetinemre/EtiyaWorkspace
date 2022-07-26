@@ -1,0 +1,18 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class Main {
+
+	public static void main(String[] args) {
+		List<User> users = new ArrayList<User>();
+		NotificationService service1 = new SmsNotification();
+		User user1 = new User(0, " Ahmet", service1);
+		UserManager userManager = new UserManager();
+		userManager.register(user1);
+		userManager.getUsers();
+		System.out.println(users);
+		
+		
+	}
+
+}

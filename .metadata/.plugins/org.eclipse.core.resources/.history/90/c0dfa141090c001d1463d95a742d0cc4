@@ -1,0 +1,33 @@
+import java.util.Date;
+
+public class TicariFaaliyet extends GercekMusteri{
+
+	private int id;
+	private int gercekMusteriId;
+	private Date baslangicTarihi;
+	public TicariFaaliyet(int musteriId, String ad, String soyad, String tcKimlikNo, int id, int gercekMusteriId,
+			Date baslangicTarihi) {
+		super(musteriId, ad, soyad, tcKimlikNo);
+		this.id = id;
+		this.gercekMusteriId = gercekMusteriId;
+		this.baslangicTarihi = baslangicTarihi;
+	}
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public int getGercekMusteriId() {
+		return gercekMusteriId;
+	}
+	public void setGercekMusteriId(int gercekMusteriId) {
+		this.gercekMusteriId = gercekMusteriId;
+	}
+	public Date getBaslangicTarihi() {
+		return baslangicTarihi;
+	}
+	public void setBaslangicTarihi(Date baslangicTarihi) {
+		this.baslangicTarihi = baslangicTarihi;
+	}
+}

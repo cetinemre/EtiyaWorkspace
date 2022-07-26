@@ -1,0 +1,7 @@
+
+public class Adresler {
+	private int Id;
+	private int MusteriId;
+	private String AdresDetay;
+	private String TcKimlikNo;
+}

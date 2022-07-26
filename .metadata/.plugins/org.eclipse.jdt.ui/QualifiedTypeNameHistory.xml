@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="javax.sound.midi.SysexMessage"/>
+    <fullyQualifiedTypeName name="User"/>
+    <fullyQualifiedTypeName name="SmsNotification"/>
+    <fullyQualifiedTypeName name="UserManager"/>
+    <fullyQualifiedTypeName name="java.sql.Date"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="telkoProject.Address"/>
+    <fullyQualifiedTypeName name="telkoProject.Plan"/>
+    <fullyQualifiedTypeName name="telkoProject.JulyPlan"/>
+    <fullyQualifiedTypeName name="telkoProject.PaymentType"/>
+    <fullyQualifiedTypeName name="telkoProject.BankCard"/>
+    <fullyQualifiedTypeName name="telkoProject.Payment"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="telkoProject.AdslNet"/>
+    <fullyQualifiedTypeName name="telkoProject.FiberNet"/>
+</qualifiedTypeNameHistroy>
